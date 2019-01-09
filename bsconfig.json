@@ -13,6 +13,6 @@
   "warnings": {
     "error" : "+101"
   },
-  "pp-flags": "./x.js",
+  "pp-flags": "./prog.exe",
   "refmt": 3
 }
