@@ -3,6 +3,8 @@
 
 var Belt_Array = require("bs-platform/lib/js/belt_Array.js");
 
+console.log("hello world");
+
 var arr = /* array */[
   "airpods",
   "not bad"
@@ -13,11 +15,13 @@ Belt_Array.forEach(arr, (function (s) {
         return /* () */0;
       }));
 
-var x = 1;
+var foo = "expressions";
 
-var y = 2;
+var bar = "seem to be";
 
-exports.x = x;
-exports.y = y;
+console.log("template expressionsseem to bepopular");
+
 exports.arr = arr;
+exports.foo = foo;
+exports.bar = bar;
 /*  Not a pure module */
