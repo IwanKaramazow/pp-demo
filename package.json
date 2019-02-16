@@ -2,6 +2,7 @@
   "name": "a0007",
   "version": "0.1.0",
   "scripts": {
+    "tools": "cp ../Valparaiso/_build/prog.exe ./prog.exe",
     "clean": "bsb -clean-world",
     "build": "bsb -make-world",
     "watch": "bsb -make-world -w"
