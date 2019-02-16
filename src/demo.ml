@@ -13,9 +13,9 @@ module Gl = {
     @bs.as("FRAGMENT_SHADER") fragment_shader: int
   }
 
-  type webGlBuffer;
-  type webGlProgram;
-  type webGlShader;
+  type webGlBuffer
+  type webGlProgram
+  type webGlShader
 
   @bs.send
   external attachShader: (t, ~program: webGlProgram, ~shader: webGlShader) => unit = ""
